@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "## ",
+        "#iQ",
+        " Qi"
+    ],
+    "key": {
+        "#": {
+            "item": "konstant:diamond_infused_powder"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "konstant:drill_bit",
+        "count": 1
+    }
+}

@@ -1,0 +1,15 @@
+.gradle
+.metadata
+.settings
+bin
+build
+eclipse
+gradle
+run
+.classpath
+.project
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+*.launch

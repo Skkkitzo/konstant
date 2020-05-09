@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#i#",
+        "iOi",
+        "#i#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "konstant:drill_parts",
+        "count": 1
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        " NR",
+        " Ri"
+    ],
+    "key": {
+        "#": {
+            "item": "konstant:drill_bit"
+        },
+        "N": {
+            "item": "konstant:drill_parts"
+        },
+        "i": {
+            "item": "konstant:drill_handle"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "konstant:drill",
+        "count": 1
+    }
+}

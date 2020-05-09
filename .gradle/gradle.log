@@ -1,0 +1,197 @@
+This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
+
+#################################################
+         ForgeGradle 2.3-SNAPSHOT-6084129e        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+                 Powered by MCP                  
+             http://modcoderpack.com             
+     by: Searge, ProfMobius, R4wk, ZeuX          
+     Fesh0r, IngisKahn, bspkrs, LexManos         
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+:processResources
+:classes
+:jar
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+:makeStart
+:runClient
+[01:08:38] [main/INFO] [GradleStart]: Extra: []
+[01:08:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/lachi/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[01:08:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:08:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:08:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:08:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:08:38] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[01:08:38] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at T:\Java\jre
+[01:08:38] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[01:08:38] [main/ERROR] [FML]: Full: C:\Users\lachi\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[01:08:38] [main/ERROR] [FML]: Trimmed: c:/users/lachi/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[01:08:38] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:08:38] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2020-05-10 01:08:39,142 main WARN Disabling terminal, you're running in an unsupported environment.
+[01:08:39] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[01:08:39] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[01:08:39] [main/INFO] [FML]: Searching T:\Coding\Java\forge\konstant\run\.\mods for mods
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:08:39] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[01:08:39] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[01:08:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:08:39] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:08:39] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[01:08:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:08:39] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:08:40] [Client thread/INFO] [minecraft/Minecraft]: Setting user: Player858
+[01:08:41] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[01:08:41] [Client thread/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[01:08:42] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 610014528 bytes (581 MB) / 761266176 bytes (726 MB) up to 7615283200 bytes (7262 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 445.87' Renderer: 'GeForce RTX 2060/PCIe/SSE2'
+[01:08:42] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[01:08:42] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:08:42] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[01:08:42] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[01:08:42] [Client thread/INFO] [FML]: Searching T:\Coding\Java\forge\konstant\run\.\mods for mods
+[01:08:43] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[01:08:43] [Client thread/INFO] [FML]: Forge Mod Loader has identified 11 mods to load
+[01:08:43] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, konstant, codechickenlib, cofhcore, cofhworld, redstoneflux, thermalexpansion, thermalfoundation] at CLIENT
+[01:08:43] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, konstant, codechickenlib, cofhcore, cofhworld, redstoneflux, thermalexpansion, thermalfoundation] at SERVER
+[01:08:43] [Client thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
+[01:08:43] [Client thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
+[01:08:43] [Client thread/ERROR] [FML]: The mod thermalfoundation is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalFoundation-1.12.2-2.6.7.1-universal.jar, however there is no signature matching that description
+[01:08:44] [Client thread/ERROR] [FML]: The mod thermalexpansion is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source ThermalExpansion-1.12.2-5.5.7.1-universal.jar, however there is no signature matching that description
+[01:08:44] [Client thread/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Konstant, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CoFH World, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
+[01:08:44] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[01:08:44] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[01:08:44] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:08:44] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:08:44] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:08:44] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
+[01:08:44] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 99803013 nanos
+[01:08:44] [Client thread/INFO] [CoFH World]: Registering default Feature Templates...
+[01:08:44] [Client thread/INFO] [CoFH World]: Registering default World Generators...
+[01:08:44] [Client thread/INFO] [CoFH World]: Verifying or creating base world generation directory...
+[01:08:44] [Client thread/INFO] [CoFH World]: Complete.
+[01:08:44] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalfoundation] Found status: UP_TO_DATE Target: null
+[01:08:44] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[01:08:44] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[01:08:44] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Starting version check at https://raw.github.com/cofh/version/master/thermalexpansion_update.json
+[01:08:45] [Forge Version Check/INFO] [forge.VersionCheck]: [thermalexpansion] Found status: UP_TO_DATE Target: null
+[01:08:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:08:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:45] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:45] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:45] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:08:45] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:08:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[01:08:45] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[01:08:46] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhcore] Found status: UP_TO_DATE Target: null
+[01:08:46] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Starting version check at https://raw.github.com/cofh/version/master/cofhworld_update.json
+[01:08:46] [Forge Version Check/INFO] [forge.VersionCheck]: [cofhworld] Found status: UP_TO_DATE Target: null
+[01:08:47] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[01:08:47] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[01:08:47] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:08:47] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[01:08:47] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[01:08:50] [Client thread/INFO] [FML]: Max texture size: 16384
+[01:08:50] [Client thread/INFO] [minecraft/TextureMap]: Created: 1024x1024 textures-atlas
+[01:08:51] [Client thread/INFO] [FML]: Applying holder lookups
+[01:08:51] [Client thread/INFO] [FML]: Holder lookups applied
+[01:08:51] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:08:51] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:08:51] [Client thread/INFO] [cofhcore]: CoFH Core: Load Complete.
+[01:08:51] [Client thread/INFO] [CoFH World]: Accumulating world generation files from: "T:\Coding\Java\forge\konstant\run\config\cofh\world"
+[01:08:51] [Client thread/INFO] [CoFH World]: Found a total of 3 world generation files.
+[01:08:51] [Client thread/INFO] [CoFH World]: Reading world generation info from: "cofh\world\01_thermalfoundation_ores.json":
+[01:08:51] [Client thread/INFO] [CoFH World]: Reading world generation info from: "cofh\world\02_thermalfoundation_oil.json":
+[01:08:51] [Client thread/INFO] [CoFH World]: Reading world generation info from: "cofh\world\03_thermalfoundation_clathrates.json":
+[01:08:51] [Client thread/INFO] [CoFH World]: CoFH World: Load Complete.
+[01:08:51] [Client thread/INFO] [thermalfoundation]: [Whitelist] Reading established Whitelist from file.
+[01:08:51] [Client thread/INFO] [thermalfoundation]: Thermal Foundation: Load Complete.
+[01:08:51] [Client thread/INFO] [thermalexpansion]: Thermal Expansion: Load Complete.
+[01:08:52] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 11 mods
+[01:08:52] [Client thread/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[01:08:52] [Client thread/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[01:08:53] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[01:09:05] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[01:09:05] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[01:09:05] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[01:09:06] [Server thread/INFO] [FML]: Applying holder lookups
+[01:09:06] [Server thread/INFO] [FML]: Holder lookups applied
+[01:09:06] [Server thread/INFO] [FML]: Loading dimension 0 (Mod Testing) (net.minecraft.server.integrated.IntegratedServer@203c35d6)
+[01:09:06] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[01:09:06] [Server thread/INFO] [FML]: Loading dimension -1 (Mod Testing) (net.minecraft.server.integrated.IntegratedServer@203c35d6)
+[01:09:06] [Server thread/INFO] [FML]: Loading dimension 1 (Mod Testing) (net.minecraft.server.integrated.IntegratedServer@203c35d6)
+[01:09:06] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[01:09:06] [Server thread/INFO] [FML]: Unloading dimension -1
+[01:09:06] [Server thread/INFO] [FML]: Unloading dimension 1
+[01:09:06] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[01:09:08] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[01:09:08] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[01:09:08] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,cofhcore@4.6.6,FML@8.0.99.99,thermalexpansion@5.5.7,forge@14.23.5.2847,thermalfoundation@2.6.7,codechickenlib@3.2.3.358,redstoneflux@2.1.1,cofhworld@1.4.0,mcp@9.42,konstant@1.1.0
+[01:09:08] [Netty Server IO #1/INFO] [CodeChickenLib-ConfigSync]: Skipping config sync, No mods have registered a syncable config.
+[01:09:08] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[01:09:08] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:09:08] [Server thread/INFO] [minecraft/PlayerList]: Player858[local:E:076d8cd6] logged in with entity id 0 at (-1002.4304473278029, 64.0, -960.1814116781657)
+[01:09:08] [Server thread/INFO] [minecraft/MinecraftServer]: Player858 joined the game
+[01:09:09] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[01:09:09] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Mod Testing'/overworld
+[01:09:10] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[01:09:10] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Mod Testing'/overworld
+[01:09:16] [Server thread/INFO] [minecraft/MinecraftServer]: [Player858: Set own game mode to Survival Mode]
+[01:09:16] [Client thread/INFO] [minecraft/GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
+[01:09:18] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[01:09:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Mod Testing'/overworld
+[01:09:22] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[01:09:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Mod Testing'/overworld
+[01:09:22] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[01:09:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[01:09:22] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Player858 lost connection: Disconnected
+[01:09:22] [Server thread/INFO] [minecraft/MinecraftServer]: Player858 left the game
+[01:09:22] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[01:09:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[01:09:22] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'Mod Testing'/overworld
+[01:09:22] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:09:22] [Server thread/INFO] [FML]: Applying holder lookups
+[01:09:22] [Server thread/INFO] [FML]: Holder lookups applied
+[01:09:24] [Client thread/INFO] [minecraft/Minecraft]: Stopping!
+[01:09:24] [Client thread/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[01:09:24] [Client thread/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 57.931 secs
