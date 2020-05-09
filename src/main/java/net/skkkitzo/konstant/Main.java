@@ -10,8 +10,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.skkkitzo.konstant.items.DrillTool;
 import net.skkkitzo.konstant.items.ItemBase;
 
-import org.apache.logging.log4j.Logger;
-
 @Mod(modid = Main.MODID, name = Main.NAME, version = Main.VERSION)
 public class Main
 {
@@ -22,7 +20,7 @@ public class Main
     public static final String NAME = "Konstant";
     public static final String VERSION = "1.1.0";
 
-    private static Logger logger;
+    //private static Logger logger;
     
     public static ToolMaterial konstant_material;
     
@@ -42,7 +40,7 @@ public class Main
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        logger = event.getModLog();
+        //logger = event.getModLog();
         
         // add base material for main tool
         konstant_material = EnumHelper.addToolMaterial("konstant", 10, 2031, 5.0F, 3.0F, 5);
