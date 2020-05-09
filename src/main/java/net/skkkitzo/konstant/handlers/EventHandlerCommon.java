@@ -32,7 +32,7 @@ public class EventHandlerCommon {
 		EntityPlayer player = (EntityPlayer) event.getEntity();
 		
 		// if player is holding the drill
-		if (player.getHeldItemMainhand().getItem() == Main.drill) {
+		if (player.getHeldItemMainhand().getItem() == Main.particleDestabiliser) {
 			MinecraftServer server = FMLCommonHandler.instance().getMinecraftServerInstance();
 			World world = server.getWorld(0);
 			BlockPos pos = event.getPos();
@@ -62,7 +62,7 @@ public class EventHandlerCommon {
 		
 		String mode = Main.drill_mode;
 		
-		if (player.getHeldItemMainhand().getItem() == Main.drill) {
+		if (player.getHeldItemMainhand().getItem() == Main.particleDestabiliser) {
 			if (mode.startsWith("wide")){
 				
 				// calculate the start and end positions for ray tracing
@@ -114,7 +114,7 @@ public class EventHandlerCommon {
 			EntityPlayer player = (EntityPlayer) event.getEntity();
 			
 			// if player is sneaking and holding the drill...
-			if (player.isSneaking() && player.getHeldItemMainhand().getItem() == Main.drill) {
+			if (player.isSneaking() && player.getHeldItemMainhand().getItem() == Main.particleDestabiliser) {
 				
 				MinecraftServer server = FMLCommonHandler.instance().getMinecraftServerInstance();
 				World world = server.getWorld(0);

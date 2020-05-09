@@ -8,9 +8,9 @@ import net.minecraft.item.ItemPickaxe;
  * @author Skkkitzo
  *
  */
-public class DrillTool extends ItemPickaxe {
+public class ParticleDestabiliser extends ItemPickaxe {
 
-	public DrillTool(ToolMaterial material, String name) {
+	public ParticleDestabiliser(ToolMaterial material, String name) {
 		super(material);
 		
 		this.setRegistryName(name);

@@ -1,6 +1,6 @@
-item.drill.name=Drill
-item.drill_bit.name=Drill Bit
-item.drill_parts.name=Drill Parts
-item.drill_handle.name=Drill Handle
+item.particle_destabiliser.name=Particle Destabiliser
+item.particle_containment_unit.name=Particle Containment Unit
+item.atomic_fabricator.name=Atomic Fabricator
+item.atomic_dismantler.name=Atomic Dismantler
 
 item.diamond_infused_powder.name=Diamond Infused Powder

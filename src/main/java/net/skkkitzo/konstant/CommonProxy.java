@@ -16,10 +16,10 @@ public class CommonProxy {
 	@SubscribeEvent
 	public static void registerRenders(ModelRegistryEvent event) {
 		// register the rendering of items
-		registerRender(Main.drill);
-		registerRender(Main.drill_bit);
-		registerRender(Main.drill_parts);
-		registerRender(Main.drill_handle);
+		registerRender(Main.particleDestabiliser);
+		registerRender(Main.particleContainmentUnit);
+		registerRender(Main.atomicFabricator);
+		registerRender(Main.atomicDismantler);
 		
 		// register the rendering of item-resources
 		registerRender(Main.diamond_infused_powder);
@@ -37,10 +37,10 @@ public class CommonProxy {
 	public static void registerItems(RegistryEvent.Register<Item> event) {
 		
 		// register the items
-		event.getRegistry().registerAll(Main.drill);
-		event.getRegistry().registerAll(Main.drill_bit);
-		event.getRegistry().registerAll(Main.drill_parts);
-		event.getRegistry().registerAll(Main.drill_handle);
+		event.getRegistry().registerAll(Main.particleDestabiliser);
+		event.getRegistry().registerAll(Main.particleContainmentUnit);
+		event.getRegistry().registerAll(Main.atomicFabricator);
+		event.getRegistry().registerAll(Main.atomicDismantler);
 		
 		// register the item-resources
 		event.getRegistry().registerAll(Main.diamond_infused_powder);

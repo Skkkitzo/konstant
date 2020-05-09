@@ -7,8 +7,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.skkkitzo.konstant.items.DrillTool;
 import net.skkkitzo.konstant.items.ItemBase;
+import net.skkkitzo.konstant.items.ParticleDestabiliser;
 
 @Mod(modid = Main.MODID, name = Main.NAME, version = Main.VERSION)
 public class Main
@@ -24,10 +24,10 @@ public class Main
     
     public static ToolMaterial konstant_material;
     
-    public static Item drill;
-    public static Item drill_bit;
-    public static Item drill_parts;
-    public static Item drill_handle;
+    public static Item particleDestabiliser;
+    public static Item particleContainmentUnit;
+    public static Item atomicFabricator;
+    public static Item atomicDismantler;
     
     public static Item diamond_infused_powder;
     
@@ -46,10 +46,11 @@ public class Main
         konstant_material = EnumHelper.addToolMaterial("konstant", 10, 2031, 5.0F, 3.0F, 5);
         
         // initialise the items
-        drill = new DrillTool(konstant_material, "drill");
-        drill_bit = new ItemBase("drill_bit");
-        drill_parts = new ItemBase("drill_parts");
-        drill_handle = new ItemBase("drill_handle");
+        
+        particleDestabiliser = new ParticleDestabiliser(konstant_material, "particle_destabiliser");
+        particleContainmentUnit = new ItemBase("particle_containment_unit");
+        atomicFabricator = new ItemBase("atomic_fabricator");
+        atomicDismantler = new ItemBase("atomic_dismantler");
         
         // initialise the item-resources
         diamond_infused_powder = new ItemBase("diamond_infused_powder");
