@@ -16,10 +16,10 @@ public class CommonProxy {
 	@SubscribeEvent
 	public static void registerRenders(ModelRegistryEvent event) {
 		// register the rendering of items
-		registerRender(Main.particleDestabiliser);
-		registerRender(Main.particleContainmentUnit);
-		registerRender(Main.atomicFabricator);
-		registerRender(Main.atomicDismantler);
+		// registerRender(Main.particleDestabiliser);
+		// registerRender(Main.particleContainmentUnit);
+		// registerRender(Main.atomicFabricator);
+		// registerRender(Main.atomicDismantler);
 		
 		// register the rendering of item-resources
 		registerRender(Main.diamond_infused_powder);

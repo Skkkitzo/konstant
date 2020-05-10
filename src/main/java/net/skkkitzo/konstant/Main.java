@@ -54,7 +54,5 @@ public class Main
         
         // initialise the item-resources
         diamond_infused_powder = new ItemBase("diamond_infused_powder");
-
-        System.out.println("Printing to console");
     }
 }
