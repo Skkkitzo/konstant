@@ -1,23 +1,23 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "## ",
-        "#iQ",
-        " Qi"
+        " #i",
+        "Di#",
+        "DD "
     ],
     "key": {
         "#": {
-            "item": "konstant:diamond_infused_powder"
+            "item": "minecraft:quartz"
         },
         "i": {
             "item": "minecraft:iron_ingot"
         },
-        "Q": {
-            "item": "minecraft:quartz"
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {
-        "item": "konstant:drill_bit",
+        "item": "konstant:laser",
         "count": 1
     }
 }

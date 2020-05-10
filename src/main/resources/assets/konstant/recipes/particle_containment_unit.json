@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Q#",
+        "QNQ",
+        "RPR"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        },
+        "N": {
+            "item": "konstant:containment_unit_frame"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "P": {
+            "item": "konstant:electro_magnet"
+        }
+    },
+    "result": {
+        "item": "konstant:particle_containment_unit",
+        "count": 1
+    }
+}

@@ -2,22 +2,22 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#i#",
-        "iOi",
+        "iDi",
         "#i#"
     ],
     "key": {
         "#": {
-            "item": "minecraft:diamond"
+            "item": "minecraft:redstone"
         },
         "i": {
             "item": "minecraft:iron_ingot"
         },
-        "O": {
-            "item": "minecraft:obsidian"
+        "D": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {
-        "item": "konstant:drill_parts",
+        "item": "konstant:electro_magnet",
         "count": 1
     }
 }

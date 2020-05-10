@@ -2,5 +2,13 @@ item.particle_destabiliser.name=Particle Destabiliser
 item.particle_containment_unit.name=Particle Containment Unit
 item.atomic_fabricator.name=Atomic Fabricator
 item.atomic_dismantler.name=Atomic Dismantler
+item.stabilisation_unit.name=Stabilisation Unit
+item.destabilisation_unit.name=Destabilisation Unit
+item.containment_unit_frame.name=Containment Unit Frame
+item.electro_magnet.name=Electro Magnet
+item.laser.name=Laser
+item.stabilisation_core.name=Stabilisation Core
 
 item.diamond_infused_powder.name=Diamond Infused Powder
+
+itemGroup.tabKonstant=Konstant

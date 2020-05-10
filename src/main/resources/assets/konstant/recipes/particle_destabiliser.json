@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iGi",
+        "XQX",
+        "iPi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "G": {
+            "item": "konstant:atomic_fabricator"
+        },
+        "X": {
+            "item": "konstant:stabilisation_unit"
+        },
+        "Q": {
+            "item": "konstant:particle_containment_unit"
+        },
+        "P": {
+            "item": "konstant:atomic_dismantler"
+        }
+    },
+    "result": {
+        "item": "konstant:particle_destabiliser",
+        "count": 1
+    }
+}

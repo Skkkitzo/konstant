@@ -1,7 +1,7 @@
 package net.skkkitzo.konstant.items;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemPickaxe;
+import net.skkkitzo.konstant.Main;
 
 /**
  * Class for registering main tool
@@ -15,7 +15,7 @@ public class ParticleDestabiliser extends ItemPickaxe {
 		
 		this.setRegistryName(name);
 		this.setUnlocalizedName(name);
-		this.setCreativeTab(CreativeTabs.TOOLS);
+		this.setCreativeTab(Main.tabKonstant);
 	}
 
 }

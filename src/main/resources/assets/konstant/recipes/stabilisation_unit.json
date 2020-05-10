@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "igi",
+        "gIg",
+        "igi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "I": {
+            "item": "konstant:stabilisation_core"
+        }
+    },
+    "result": {
+        "item": "konstant:stabilisation_unit",
+        "count": 1
+    }
+}

@@ -41,6 +41,12 @@ public class CommonProxy {
 		event.getRegistry().registerAll(Main.particleContainmentUnit);
 		event.getRegistry().registerAll(Main.atomicFabricator);
 		event.getRegistry().registerAll(Main.atomicDismantler);
+		event.getRegistry().registerAll(Main.stabilisationUnit);
+		event.getRegistry().registerAll(Main.destabilisationUnit);
+		event.getRegistry().registerAll(Main.containmentUnitFrame);
+		event.getRegistry().registerAll(Main.electroMagnet);
+		event.getRegistry().registerAll(Main.laser);
+		event.getRegistry().registerAll(Main.stabilisationCore);
 		
 		// register the item-resources
 		event.getRegistry().registerAll(Main.diamond_infused_powder);

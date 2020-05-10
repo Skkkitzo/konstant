@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "QNQ",
+        "DDD"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ender_pearl"
+        },
+        "O": {
+            "item": "konstant:laser"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "konstant:atomic_fabricator",
+        "count": 1
+    }
+}
