@@ -40,7 +40,6 @@ public class Main
     
     // resources
     public static Item diamond_infused_powder;
-    public static Item electroPlatedDiamond;
 
     // creative tab
     public static final CreativeTabs tabKonstant = (new CreativeTabs("tabKonstant"){
